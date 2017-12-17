@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>showSystemTimeWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>ShowSystemTimeServlet</display-name>
+    <servlet-name>ShowSystemTimeServlet</servlet-name>
+    <servlet-class>com.allenx.showSystemTime.ShowSystemTimeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowSystemTimeServlet</servlet-name>
+    <url-pattern>/ShowSystemTimeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
